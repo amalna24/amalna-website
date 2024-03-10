@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion'
 import { ParallaxBanner } from 'react-scroll-parallax';
-import Logo from '../public/assets/logos/logo-ww.PNG'
+import Logo from '../public/assets/logos/logo-ww.png'
 
 const easing = [.6, -.05, .01, .9]
 
