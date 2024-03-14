@@ -109,13 +109,13 @@ const Main = () => {
                                             <h1 className='font-medium text-6xl md:text-8xl pt-20 pb-8 select-none'>
                                                 {isArabic(text) ? (
                                                     <>
-                                                        <span className={`inline-block w-1 h-[12vh] bg-[#ffb800] opacity-${cursorVisible && isTyping ? '100' : '0'} mr-2`}></span>
+                                                        <span style={{ opacity: cursorVisible && isTyping ? 1 : 0, transition: 'opacity 0.5s' }} className={`inline-block w-1 h-[12vh] bg-[#ffb800] mr-2`}></span>
                                                         <span className='text-8xl'>{text}</span>
                                                     </>
                                                 ) : (
                                                     <>
                                                         <span className='text-8xl'>{text}</span>
-                                                        <span className={`inline-block w-1 h-[12vh] bg-[#ffb800] opacity-${cursorVisible && isTyping ? '100' : '0'} ml-2`}></span>
+                                                        <span style={{ opacity: cursorVisible && isTyping ? 1 : 0, transition: 'opacity 0.5s' }} className={`inline-block w-1 h-[12vh] bg-[#ffb800] ml-2`}></span>
                                                     </>
                                                 )}
                                             </h1>
