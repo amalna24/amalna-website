@@ -15,6 +15,8 @@ module.exports = {
     extend: {
       fontFamily: {
         outfit: ['var(--font-outfit)'],
+        playfair: ['var(--font-playfair)'],
+        truculenta: ['var(--font-truculenta)'],
       }
     },
   },

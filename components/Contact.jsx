@@ -19,7 +19,7 @@ const Contact = () => {
                     <div id='contact' className='bg-container flex flex-col h-screen justify-center items-center'>
                         <div className='absolute top-0 border-4 border-[#ffb800] z-10 w-full' />
                         <div className='relative z-10'>
-                            <div className='font-medium text-5xl font-outfit select-none py-6'>
+                            <div className='font-medium font-playfair text-5xl font-outfit select-none py-6'>
                                 Contact Us
                             </div>
                             <div className='py-2 text-2xl'>
