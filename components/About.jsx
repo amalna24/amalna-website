@@ -9,7 +9,13 @@ const FAQ = () => {
                     About Us
                 </div>
                 <div className='text-2xl py-8 w-[60vw]'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Amalna is a non-profit corporation based in New Jersey. Our mission is to provide medical and
+                    educational assistance to those affected by the war in Gaza. We provide humanitarian aid in
+                    various forms, including medical equipment and facilitation of medical procedures. We distribute
+                    food, clothing, and other essential supplies to support the well-being of the families in Gaza.
+                    Our focus is to nurture educational opportunities for children, creating a healthier life for
+                    those in need and ensuring they know they are not alone. We are dedicated to preventing the
+                    spread of disease and providing the means for a better quality of life and basic sustenance.
                 </div>
             </div>
         </div >
