@@ -22,13 +22,13 @@ const Contact = () => {
                             <div className='font-medium font-playfair text-5xl font-outfit select-none py-6'>
                                 Contact Us
                             </div>
-                            <div className='py-2 text-2xl'>
+                            <div className='py-2 text-3xl'>
                                 Name
                             </div>
-                            <div className='py-2 text-2xl'>
+                            <div className='py-2 text-3xl'>
                                 Phone
                             </div>
-                            <div className='py-2 text-2xl'>
+                            <div className='py-2 text-3xl'>
                                 Email
                             </div>
                         </div>

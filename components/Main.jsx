@@ -125,19 +125,19 @@ const Main = () => {
                                             <div className='font-regular flex justify-center items-center w-[100vw] p-8 text-sm transition-all duration-200'>
                                                 <div className='grid grid-cols-5 gap-8 max-w-8xl items-end'>
                                                     <Link href='#about'>
-                                                        <div className='col-span-1 text-2xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>About</div>
+                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>About</div>
                                                     </Link>
                                                     <Link href='/'>
-                                                        <div className='col-span-1 text-2xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Mission</div>
+                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Mission</div>
                                                     </Link>
                                                     <div className='col-span-1 rounded-full px-8 py-4'>
                                                         <Image src={Logo} width={300} height={300} />
                                                     </div>
                                                     <Link href='/'>
-                                                        <div className='col-span-1 text-2xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Founders</div>
+                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Founders</div>
                                                     </Link>
                                                     <Link href='#contact'>
-                                                        <div className='col-span-1 text-2xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Contact</div>
+                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Contact</div>
                                                     </Link>
                                                 </div>
                                             </div>
