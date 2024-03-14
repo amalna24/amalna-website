@@ -14,9 +14,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'],
-        'marcellus': ['Marcellus', 'serif'],
-        'montserrat': ['Montserrat', 'sans-serif']
+        outfit: ['var(--font-outfit)'],
       }
     },
   },

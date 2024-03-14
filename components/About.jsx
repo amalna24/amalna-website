@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const FAQ = () => {
 
     return (
-        <div id='about' className='font-marcellus w-full h-screen text-center bg-[#F0F8FF] overflow-x-hidden'>
+        <div id='about' className='font-outfit w-full h-screen text-center bg-[#F0F8FF] overflow-x-hidden'>
             <div className='w-full h-full mx-auto flex flex-col justify-center items-center text-black'>
                 <div className='text-4xl py-8'>
                     About Us
