@@ -3,7 +3,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 
 const Contact = () => {
     return (
-        <div className='font-outfit w-full h-screen text-center text-white overflow-x-hidden overflow-y-hidden'>
+        <div className='font-truculenta w-full h-screen text-center text-white overflow-x-hidden overflow-y-hidden'>
             <div className='flex justify-center h-full items-center'>
                 <ParallaxBanner
                     layers={[

@@ -91,7 +91,7 @@ const Main = () => {
                 <title>Amalna</title>
             </Head>
             <motion.div initial='initial' animate='animate'>
-                <div id='home' className='font-outfit w-full h-screen text-center text-white overflow-x-hidden overflow-y-hidden'>
+                <div id='home' className='font-truculenta w-full h-screen text-center text-white overflow-x-hidden overflow-y-hidden'>
                     <div className='flex justify-center h-full items-center'>
                         <ParallaxBanner
                             layers={[
