@@ -3,12 +3,12 @@ import React, { useState } from 'react';
 const FAQ = () => {
 
     return (
-        <div id='about' className='font-truculenta w-full h-screen text-center bg-[#F0F8FF] overflow-x-hidden'>
+        <div id='about' className='font-outfit w-full h-screen text-center bg-[#F0F8FF] overflow-x-hidden'>
             <div className='w-full h-full mx-auto flex flex-col justify-center items-center text-black'>
                 <div className='text-4xl font-playfair py-8'>
                     About Us
                 </div>
-                <div className='text-2xl py-8 w-[60vw]'>
+                <div className='text-xl py-8 w-[60vw]'>
                     Amalna is a non-profit corporation based in New Jersey. Our mission is to provide medical and
                     educational assistance to those affected by the war in Gaza. We provide humanitarian aid in
                     various forms, including medical equipment and facilitation of medical procedures. We distribute
