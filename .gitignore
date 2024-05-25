@@ -31,3 +31,5 @@ yarn-error.log*
 
 public/assets/videos/main-bg-xl.mp4
 public/assets/videos/main-bg-long.mp4
+
+/secrets
