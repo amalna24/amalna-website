@@ -5,7 +5,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion'
 import { ParallaxBanner } from 'react-scroll-parallax';
-import Logo from '../public/assets/logos/logo-gold.png'
+import Title from '../public/assets/logos/amalna-title.png'
+import Logo from '../public/assets/logos/amalna-logo.png'
+// import Logo from '../public/assets/logos/logo-gold.png'
 
 // https://www.color-hex.com/color-palette/2260
 
@@ -91,9 +93,9 @@ const Main = () => {
                 <title>Amalna</title>
             </Head>
             <motion.div initial='initial' animate='animate'>
-                <div id='home' className='font-truculenta w-full h-screen text-center text-white overflow-x-hidden overflow-y-hidden'>
+                <div id='home' className='font-truculenta w-full h-screen text-center text-white overflow-x-hidden overflow-y-hidden bg-[#74b3e7]'>
                     <div className='flex justify-center h-full items-center'>
-                        <ParallaxBanner
+                        {/* <ParallaxBanner
                             layers={[
                                 {
                                     speed: -100,
@@ -103,12 +105,15 @@ const Main = () => {
                                 },
                             ]}
                             className='bg-container'
-                        >
-                            <div className='bg-container flex flex-col justify-end h-screen items-center'>
-                                <motion.div variants={stagger}>
-                                    <div className='relative z-10'>
-                                        <motion.div variants={fadeInUp}>
-                                            <h1 className='font-medium font-playfair text-6xl md:text-8xl pt-20 pb-8 select-none'>
+                        > */}
+                        <div className='bg-container flex flex-col justify-end h-screen items-center'>
+                            <motion.div variants={stagger}>
+                                <div className='relative z-10'>
+                                    <motion.div variants={fadeInUp}>
+                                        <div className='pt-20 pb-2 select-none items-center justify-center flex'>
+                                            <Image src={Title} width={500} height={300} />
+                                        </div>
+                                        {/* <h1 className='font-medium font-playfair text-6xl md:text-8xl pt-20 pb-8 select-none'>
                                                 Amalna
                                                 {/* {isArabic(text) ? (
                                                     <>
@@ -120,33 +125,33 @@ const Main = () => {
                                                         <span className='text-8xl'>{text}</span>
                                                         <span style={{ opacity: cursorVisible && isTyping ? 1 : 0, transition: 'opacity 0.5s' }} className={`inline-block w-1 h-[12vh] bg-[#ffb800] ml-2`}></span>
                                                     </>
-                                                )} */}
-                                            </h1>
-                                            <div className='font-regular flex justify-center items-center w-[100vw] p-8 text-sm transition-all duration-200'>
-                                                <div className='grid grid-cols-5 gap-8 max-w-8xl items-end'>
-                                                    <Link href='#about'>
-                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>About</div>
-                                                    </Link>
-                                                    <Link href='/'>
-                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Mission</div>
-                                                    </Link>
-                                                    <div className='col-span-1 rounded-full px-8 py-4'>
-                                                        <Image src={Logo} width={300} height={300} />
-                                                    </div>
-                                                    <Link href='/'>
-                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Founders</div>
-                                                    </Link>
-                                                    <Link href='#contact'>
-                                                        <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-[#ffb800] duration-100'>Contact</div>
-                                                    </Link>
+                                                )} /}
+                                            </h1> */}
+                                        <div className='font-regular flex justify-center items-center w-[100vw] p-8 text-sm transition-all duration-200'>
+                                            <div className='grid grid-cols-5 gap-8 max-w-8xl items-end'>
+                                                <Link href='#about'>
+                                                    <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-white duration-100'>About</div> {/*[#ffb800]*/}
+                                                </Link>
+                                                <Link href='/'>
+                                                    <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-white duration-100'>Mission</div>
+                                                </Link>
+                                                <div className='col-span-1 rounded-full px-8 py-4'>
+                                                    <Image src={Logo} width={300} height={300} />
                                                 </div>
+                                                <Link href='/'>
+                                                    <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-white duration-100'>Founders</div>
+                                                </Link>
+                                                <Link href='#contact'>
+                                                    <div className='col-span-1 text-3xl px-8 py-8 ease-in border-b-8 border-transparent hover:border-white duration-100'>Contact</div>
+                                                </Link>
                                             </div>
-                                            <div className='border-4 border-[#ffb800]' />
-                                        </motion.div>
-                                    </div>
-                                </motion.div>
-                            </div>
-                        </ ParallaxBanner>
+                                        </div>
+                                        {/* <div className='border-4 border-[#ffb800]' /> */}
+                                    </motion.div>
+                                </div>
+                            </motion.div>
+                        </div>
+                        {/* </ ParallaxBanner> */}
                     </div>
                 </div>
             </motion.div>
